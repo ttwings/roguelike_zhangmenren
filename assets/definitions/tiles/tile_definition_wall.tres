@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="TileDefinition" load_steps=4 format=3 uid="uid://bquyldplcwux"]
+
+[ext_resource type="Script" uid="uid://blk3fa38c50nm" path="res://src/Entities/TileDefinition.gd" id="1_g8l3i"]
+[ext_resource type="Texture2D" uid="uid://c8kac2d2rqkch" path="res://assets/images/1bit.png" id="2_g8l3i"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7vnfb"]
+atlas = ExtResource("2_g8l3i")
+region = Rect2(391, 51, 16, 16)
+
+[resource]
+script = ExtResource("1_g8l3i")
+texture = SubResource("AtlasTexture_7vnfb")
