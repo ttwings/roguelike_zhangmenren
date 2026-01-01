@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://cyiju13y770n2"]
+
+[ext_resource type="Script" uid="uid://b74wbcur5cax4" path="res://源码/游戏/游戏.gd" id="1_fv2ks"]
+[ext_resource type="Script" uid="uid://dam7adr682vxf" path="res://源码/游戏/事件处理器.gd" id="2_3r1he"]
+[ext_resource type="Script" uid="uid://r23tapysvrtl" path="res://源码/游戏/地牢生成器.gd" id="3_3r1he"]
+
+[node name="游戏" type="Node2D"]
+script = ExtResource("1_fv2ks")
+
+[node name="事件处理器" type="Node" parent="."]
+script = ExtResource("2_3r1he")
+
+[node name="实体组" type="Node2D" parent="."]
+
+[node name="地牢生成器" type="Node" parent="."]
+script = ExtResource("3_3r1he")

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="实体定义" load_steps=4 format=3 uid="uid://cyyn15ux7mudy"]
+
+[ext_resource type="Script" uid="uid://dyb0ppujhfjt0" path="res://源码/实体/实体定义.gd" id="1_b0gdg"]
+[ext_resource type="Texture2D" uid="uid://c8kac2d2rqkch" path="res://资源/图片/1bit.png" id="2_5idoh"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nxbtg"]
+atlas = ExtResource("2_5idoh")
+region = Rect2(425, 0, 16, 16)
+
+[resource]
+script = ExtResource("1_b0gdg")
+"纹理" = SubResource("AtlasTexture_nxbtg")
+metadata/_custom_type_script = "uid://dyb0ppujhfjt0"

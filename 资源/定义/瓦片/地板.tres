@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="瓦片定义" load_steps=4 format=3 uid="uid://do2plknvbo2co"]
+
+[ext_resource type="Script" uid="uid://0pxluo1fb63w" path="res://源码/实体/瓦片定义.gd" id="1_3fgbo"]
+[ext_resource type="Texture2D" uid="uid://c8kac2d2rqkch" path="res://资源/图片/1bit.png" id="2_yrav6"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_htma5"]
+atlas = ExtResource("2_yrav6")
+region = Rect2(17, 0, 16, 16)
+
+[resource]
+script = ExtResource("1_3fgbo")
+"纹理" = SubResource("AtlasTexture_htma5")
+metadata/_custom_type_script = "uid://0pxluo1fb63w"

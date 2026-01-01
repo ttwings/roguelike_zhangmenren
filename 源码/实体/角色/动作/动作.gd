@@ -1,0 +1,2 @@
+class_name 动作
+extends RefCounted
